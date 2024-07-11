@@ -1,5 +1,4 @@
 print("Print equilateral triangle Pyramid using asterisk symbol ")
-# printing full Triangle pyramid using stars
 size = 7
 m = (2 * size) - 2
 for i in range(0, size):
@@ -9,4 +8,4 @@ for i in range(0, size):
     m = m - 1
     for j in range(0, i + 1):
         print("* ", end=' ')
-    print(" ")
+    print("   ")
